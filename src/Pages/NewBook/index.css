@@ -1,0 +1,16 @@
+.flex-form{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 8px;
+}
+
+.flex-form input {
+    margin-left: 8px;
+}
+
+.flex-form button{
+    grid-column: 2;
+    padding: 0;
+    width:80%;
+    margin: auto;
+}
